@@ -29,5 +29,10 @@ namespace MultiStore.Domain.Entities
         //Navigation Properties
         public Guid RoleId { get; set; }
         public AppRole Role { get; set; } = null!;
+
+
+        //If the user is a store representative, information about which store they belong to
+        public Guid? StoreId { get; set; }
+        public Store? Store { get; set; }
     }
 }
