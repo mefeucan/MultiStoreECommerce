@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MultiStore.API/MultiStore.API.csproj" />
+    <Project Path="src/MultiStore.Application/MultiStore.Application.csproj" />
+    <Project Path="src/MultiStore.Domain/MultiStore.Domain.csproj" />
+    <Project Path="src/MultiStore.Infrastructure/MultiStore.Infrastructure.csproj" />
+  </Folder>
+</Solution>
