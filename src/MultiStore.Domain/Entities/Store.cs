@@ -1,0 +1,11 @@
+using MultiStore.Domain.Common;
+
+namespace MultiStore.Domain.Entities;
+
+public class Store : BaseEntity
+{
+    public string Name { get; set; } = string.Empty;
+    public string? Description { get; set; }
+    public string? ContactEmail { get; set; }
+    public bool IsActive { get; set; } = true;
+}
