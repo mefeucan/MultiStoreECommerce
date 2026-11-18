@@ -8,4 +8,5 @@ public class Store : BaseEntity
     public string? Description { get; set; }
     public string? ContactEmail { get; set; }
     public bool IsActive { get; set; } = true;
+    public ICollection<Product> Products { get; set; } = new List<Product>();
 }
