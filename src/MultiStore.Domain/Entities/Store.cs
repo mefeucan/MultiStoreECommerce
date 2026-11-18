@@ -9,4 +9,5 @@ public class Store : BaseEntity
     public string? ContactEmail { get; set; }
     public bool IsActive { get; set; } = true;
     public ICollection<Product> Products { get; set; } = new List<Product>();
+    public ICollection<StoreManager> Managers { get; set; } = new List<StoreManager>();
 }
