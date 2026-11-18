@@ -14,4 +14,5 @@ public class Order : BaseEntity
     public string ShippingPhone { get; set; } = string.Empty;
     public string CardLastFourDigits { get; set; } = string.Empty;
     public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
+    public ICollection<Shipment> Shipments { get; set; } = new List<Shipment>();
 }
